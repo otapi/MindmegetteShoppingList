@@ -1,0 +1,20 @@
+{
+    "name": "Mindmegette Shopping List",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "description": "Edge extension to create a merged ingredients shopping list form batch of meals on the site Mindmegette.hu",
+    "icons": {
+        "16": "icons/shopping-icon16.png",
+        "32": "icons/shopping-icon32.png",
+        "48": "icons/shopping-icon48.png",
+        "128": "icons/shopping-icon128.png"
+    },
+    "permissions": [
+        "webRequest"
+      ],
+    "content_scripts": [{
+        "js": ["content.js"],
+        "matches": ["https://www.mindmegette.hu/*"]
+      }]
+
+}
