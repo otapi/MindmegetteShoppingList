@@ -14,7 +14,7 @@
       ],
     "content_scripts": [{
         "js": ["content.js"],
-        "matches": ["https://www.mindmegette.hu/*"]
+        "matches": ["https://www.mindmegette.hu/*", "https://to-do.live.com/*"]
       }]
 
 }
